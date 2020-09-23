@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import BlogComponent from '../components/BlogComponent'
 import ParentEventComponent from '../components/ParentEventComponent'
+import DestinationBox from '../components/DestinationBox'
 
 Vue.use(VueRouter)
 
@@ -29,6 +30,11 @@ Vue.use(VueRouter)
     path: '/parent-event',
     name: 'ParentEventComponent',
     component: ParentEventComponent
+  },
+  {
+    path: '/destination-box',
+    name: 'DestinationBox',
+    component: DestinationBox
   }
 ]
 
