@@ -1,12 +1,10 @@
 <template>
     <!-- <v-container> -->
-        <div class="location-contain">
-            <div class="locations">
+        <div class="locations">
             <div class="place">
-                <img :src="location.img" width="235" height="300"/>
+                <img :src="location.img" width="235" height="500"/>
                 <h2>{{ location.name }}</h2>
                 <p>{{ location.desc }}</p>
-            </div>
             </div>
         </div>
     <!-- </v-container> -->

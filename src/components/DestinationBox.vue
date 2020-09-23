@@ -1,9 +1,11 @@
 /* eslint-disable vue/no-unused-vars */
 <template>
+    <v-container>
         <div id="app">
             <h2>
                 {{ pageTitle }}
             </h2>
+            <div class="location-contain">
                 <!-- <v-row> -->
                     <!-- <v-col cols="12"> -->
                         <!-- <v-row
@@ -18,7 +20,9 @@
                         <!-- </v-row> -->
                     <!-- </v-col> -->
                 <!-- </v-row> -->
+            </div>
         </div>
+        </v-container>
 </template>
 
 <script>
@@ -59,7 +63,7 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 280px;
-  height: 320px;
+  height: 500px;
   justify-content: center;
   background: white;
   border: 1px solid #ddd;
