@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import BlogComponent from '../components/BlogComponent'
+import ParentEventComponent from '../components/ParentEventComponent'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ Vue.use(VueRouter)
     path: '/blog',
     name: 'Blog',
     component: BlogComponent
+  },
+  {
+    path: '/parent-event',
+    name: 'ParentEventComponent',
+    component: ParentEventComponent
   }
 ]
 
