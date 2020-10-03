@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import BlogComponent from '../components/BlogComponent'
 import ParentEventComponent from '../components/ParentEventComponent'
 import DestinationBox from '../components/DestinationBox'
+import CounterComponent from '../components/CounterComponent'
+
 
 Vue.use(VueRouter)
 
@@ -35,7 +37,12 @@ Vue.use(VueRouter)
     path: '/destination-box',
     name: 'DestinationBox',
     component: DestinationBox
-  }
+  },
+  {
+    path: '/counter',
+    name: 'CounterComponent',
+    component: CounterComponent
+  },
 ]
 
 const router = new VueRouter({
