@@ -13,13 +13,19 @@
                 asyncIncrement
             </v-btn>
         </div>
-        
+        <div>
+            <counter-test-component></counter-test-component>
+        </div>
     </v-container>
 </template>
 
 <script>
+
+import CounterTestComponent from './CounterTestComponent';
+
 export default {
     name: 'CounterComponent',
+    components: { CounterTestComponent },
     data: function() {
         return {
             pageTitle: 'Counter Component'
